@@ -1,0 +1,18 @@
+services:
+  mock-server:
+    build: ./mock-server
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./mock-server:/app
+
+  pipeline-service:
+    build: ./pipeline-service
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    depends_on:
+      - mock-server
+    volumes:
+      - ./pipeline-service:/app

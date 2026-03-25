@@ -1,0 +1,135 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.code-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Docker
+*.log
+docker-compose.override.yml
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+pgdata/
+postgres-data/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# Logs
+*.log
+logs/
+*.out
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Flask
+instance/
+.webassets-cache
+
+# FastAPI
+.fastapi_cache/
+
+# PostgreSQL
+*.dump
+*.sql.gz
+
+# Backup files
+*.bak
+*.backup
+
+# Compiled files
+*.pyc
+*.pyo
+
+# Package files
+*.tar.gz
+*.zip
+
+# Local development
+local_settings.py
+secrets.py
